@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+body {
+  background-color: #f9efe8;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+@theme {
+  --color-slack-purple: #481a54;
+  --color-slack-blue: #0165a1;
+}

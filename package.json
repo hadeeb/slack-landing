@@ -1,0 +1,28 @@
+{
+	"name": "slack-landing",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "tsc -b && vite build",
+		"lint": "biome check .",
+		"lint:fix": "biome check --fix .",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@tailwindcss/vite": "^4.0.15",
+		"@types/react": "^19.0.12",
+		"@types/react-dom": "^19.0.4",
+		"@vitejs/plugin-react-swc": "^3.8.1",
+		"tailwindcss": "^4.0.15",
+		"typescript": "~5.8.2",
+		"vite": "^6.2.2"
+	},
+	"packageManager": "pnpm@9.15.5"
+}
